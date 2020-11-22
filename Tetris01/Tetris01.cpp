@@ -98,6 +98,14 @@ int main()
 	// Main Game loop
 	while (!bGameOver)
 	{
+		// GAME TIMING : not all processors are created equal. Manage game timing so it behaves the same on every computer
+
+		// INPUT: handle the user input
+
+		// GAME LOGIC: What happens at user input? Collision detection, shapes falling, scoring and so on
+
+		// RENDER GAME OUTPUT: Display the game
+
 		// Draw Field
 		for (int i = 0; i < nFieldWidth; i++)
 		{
